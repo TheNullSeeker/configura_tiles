@@ -826,4 +826,3 @@ class DebugDemo extends StatelessWidget {
 - X (formerly Twitter): [TheSageAnomaly](https://x.com/TheSageAnomaly)
 
 Feel free to explore and contribute to the project! For any questions or support, reach out to us on our social media platforms.
-

@@ -286,9 +286,9 @@ class _VisibilityDemoState extends State<VisibilityDemo> {
 
 ```
 
-![Tile visibility on](assets/images/visibility0.jpg)
+![Tile visibility on](https://github.com/TheSageAnomaly/configura_tiles/blob/main/assets/images/visibility0.jpg)
 
-![Tile visibility on](assets/images/visibility1.jpg)
+![Tile visibility on](https://github.com/TheSageAnomaly/configura_tiles/blob/main/assets/images/visibility1.jpg)
 
 - **Tile with header text**
 
@@ -363,7 +363,7 @@ class _TileHeaderDemoState extends State<TileHeaderDemo> {
 
 ```
 
-![Tile tile header example](assets/images/headerExample.jpg)
+![Tile tile header example](https://github.com/TheSageAnomaly/configura_tiles/blob/main/assets/images/headerExample.jpg)
 
 - **Tile-theme demo**
 
@@ -454,9 +454,9 @@ class _ThemeDemoState extends State<ThemeDemo> {
 
 ```
 
-![TileTheme light demo](assets/images/lightTheme0.jpg)
+![TileTheme light demo](https://github.com/TheSageAnomaly/configura_tiles/blob/main/assets/images/lightTheme0.jpg)
 
-![TileTheme dark demo](assets/images/lightTheme1.jpg)
+![TileTheme dark demo](https://github.com/TheSageAnomaly/configura_tiles/blob/main/assets/images/lightTheme1.jpg)
 
 ---
 
@@ -507,7 +507,7 @@ ConfiguraAppBar(
       ),
 ```
 
-![App Bar Demo](assets/images/appbarDemo.jpg)
+![App Bar Demo](https://github.com/TheSageAnomaly/configura_tiles/blob/main/assets/images/appbarDemo.jpg)
 
 - **Toggle App bar Demo**
 
@@ -530,9 +530,9 @@ ConfiguraTile(
         ),
 ```
 
-![Toggle appbar on Demo](assets/images/toggleAppbar0.jpg)
+![Toggle appbar on Demo](https://github.com/TheSageAnomaly/configura_tiles/blob/main/assets/images/toggleAppbar0.jpg)
 
-![Toggle appbar off Demo](assets/images/toggleAppbar1.jpg)
+![Toggle appbar off Demo](https://github.com/TheSageAnomaly/configura_tiles/blob/main/assets/images/toggleAppbar1.jpg)
 
 - **Toggle leading icon example**
 
@@ -556,7 +556,7 @@ ConfiguraTile(
         ),
 ```
 
-![Appbar leading off Demo](assets/images/toggleLeading1.jpg)
+![Appbar leading off Demo](https://github.com/TheSageAnomaly/configura_tiles/blob/main/assets/images/toggleLeading1.jpg)
 
 - **Toggle trailing icon example**
 
@@ -580,8 +580,8 @@ ConfiguraTile(
         ),
 ```
 
-![Appbar trailing on Demo](assets/images/toggleTrailing0.jpg)
-![Appbar trailing off Demo](assets/images/toggleTrailing1.jpg)
+![Appbar trailing on Demo](https://github.com/TheSageAnomaly/configura_tiles/blob/main/assets/images/toggleTrailing0.jpg)
+![Appbar trailing off Demo](https://github.com/TheSageAnomaly/configura_tiles/blob/main/assets/images/toggleTrailing1.jpg)
 
 - **Complete App bar example**
 
@@ -746,7 +746,7 @@ class _AppbarDemoState extends State<AppbarDemo> {
 
 ```
 
-![App Bar Demo](assets/images/appbarDemo.jpg)
+![App Bar Demo](https://github.com/TheSageAnomaly/configura_tiles/blob/main/assets/images/appbarDemo.jpg)
 
 ---
 
@@ -766,7 +766,7 @@ class _AppbarDemoState extends State<AppbarDemo> {
     );
 ```
 
-![FAB Demo](assets/images/main.jpg)
+![FAB Demo](https://github.com/TheSageAnomaly/configura_tiles/blob/main/assets/images/main.jpg)
 
 ---
 

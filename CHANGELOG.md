@@ -2,14 +2,9 @@
 
 ## 0.0.21
 
-### Enhancements
-
 - **Improved user documentation.**
 
-
 ## 0.0.2
-
-### Enhancements
 
 - **Improved error handling for a more stable user experience.**
 - **Enhanced AppBar functionalities, including enabling/disabling options and custom actions.**

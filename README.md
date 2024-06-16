@@ -187,7 +187,7 @@ class _TilesDemoState extends State<TilesDemo> {
 
 ```
 
-![ConfiguraTiles Demo](assets/images/main.jpg)
+![ConfiguraTiles Demo](https://github.com/TheSageAnomaly/configura_tiles/blob/main/assets/images/main.jpg)
 
 ---
 

@@ -1,35 +1,35 @@
 # ConfiguraTiles Documentation
 
-Welcome to the ConfiguraTiles documentation! This package provides a configurable tile system for your Flutter applications. It supports various features including custom app bars, floating action buttons (FAB), and debug modes.
+**Welcome to the ConfiguraTiles documentation! This package provides a configurable tile system for your Flutter applications. It supports various features including custom app bars, floating action buttons (FAB), and debug modes.**
 
 ## Table of Contents
 
-- [ConfiguraTiles Documentation](#configuratiles-documentation)
-  - [Table of Contents](#table-of-contents)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Tile Configuration](#tile-configuration)
-  - [App Bar Configuration](#app-bar-configuration)
-  - [Floating Action Button Configuration](#floating-action-button-configuration)
-  - [Debug Modes](#debug-modes)
-  - [Project Links and Social Media](#project-links-and-social-media)
-    - [Project Links](#project-links)
-    - [Social Media](#social-media)
+- **[ConfiguraTiles Documentation](#configuratiles-documentation)**
+  - **[Table of Contents](#table-of-contents)**
+  - **[Installation](#installation)**
+  - **[Usage](#usage)**
+  - **[Tile Configuration](#tile-configuration)**
+  - **[App Bar Configuration](#app-bar-configuration)**
+  - **[Floating Action Button Configuration](#floating-action-button-configuration)**
+  - **[Debug Modes](#debug-modes)**
+  - **[Project Links and Social Media](#project-links-and-social-media)**
+    - **[Project Links](#project-links)**
+    - **[Social Media](#social-media)**
 
 ## Installation
 
-Add the following to your `pubspec.yaml`:
+**Add the following to your `pubspec.yaml`:**
 
 ```yaml
 dependencies:
   configura_tiles: latest_version
 ```
 
-Run `flutter pub get` to install the package.
+**Run `flutter pub get` to install the package.**
 
 ## Usage
 
-To get started with ConfiguraTiles, you need to use the `ConfiguraTileForge` widget. Here's a basic example:
+**To get started with ConfiguraTiles, you need to use the `ConfiguraTileForge` widget. Here's a basic example:**
 
 ```dart
 import 'package:flutter/material.dart';
@@ -113,11 +113,11 @@ class _TilesDemoState extends State<TilesDemo> {
           trailingColor: Colors.white,
 
           //headerText: 'Header Text',
-          headerTextColor: Colors.black, // Set the header text color
+          headerTextColor: Colors.black, 
           headerSpacing: 10.0,
           textAlignment: CrossAxisAlignment.start,
           visibilityEnabled: false,
-          visibilityCondition: () => true, // Define your condition here
+          visibilityCondition: () => true, 
         ),
         ConfiguraTile(
           tileColor: Colors.black,
@@ -141,7 +141,7 @@ class _TilesDemoState extends State<TilesDemo> {
           trailingColor: Colors.white,
 
           visibilityEnabled: false,
-          visibilityCondition: () => true, // Define your condition here
+          visibilityCondition: () => true, 
         ),
         ConfiguraTile(
           tileColor: Colors.black,
@@ -165,7 +165,7 @@ class _TilesDemoState extends State<TilesDemo> {
           trailingColor: Colors.white,
 
           visibilityEnabled: false,
-          visibilityCondition: () => true, // Define your condition here
+          visibilityCondition: () => true, 
         ),
       ],
       debugMode: DebugMode.userFriendly,
@@ -193,9 +193,9 @@ class _TilesDemoState extends State<TilesDemo> {
 
 ## Tile Configuration
 
-ConfiguraTiles allows for extensive customization of tiles. Below is an example demonstrating various tile properties:
+**ConfiguraTiles allows for extensive customization of tiles. Below is an example demonstrating various tile properties:**
 
-- Tile Visibility Demo
+- **Tile Visibility Demo**
 
 ```dart
 import 'package:flutter/material.dart';
@@ -290,7 +290,7 @@ class _VisibilityDemoState extends State<VisibilityDemo> {
 
 ![Tile visibility on](assets/images/visibility1.jpg)
 
-- Tile with header text
+- **Tile with header text**
 
 ```dart
 import 'package:flutter/material.dart';
@@ -363,9 +363,9 @@ class _TileHeaderDemoState extends State<TileHeaderDemo> {
 
 ```
 
-![HeaderTextDemo](assets/images/header example.jpg)
+![Tile tile header example](assets/images/headerExample.jpg)
 
-- Tile-theme demo
+- **Tile-theme demo**
 
 ```dart
 import 'package:flutter/material.dart';
@@ -462,9 +462,9 @@ class _ThemeDemoState extends State<ThemeDemo> {
 
 ## App Bar Configuration
 
-You can customize the app bar using the `ConfiguraAppBar` class. Here's are examples of some  usages:
+**You can customize the app bar using the `ConfiguraAppBar` class. Here's are examples of some  usages:**
 
-- App Bar
+- **App Bar**
 
 ```dart
 ConfiguraAppBar(
@@ -507,11 +507,9 @@ ConfiguraAppBar(
       ),
 ```
 
-Insert screenshot of the app bar demo here:
-
 ![App Bar Demo](assets/images/appbarDemo.jpg)
 
-- Toggle App bar Demo
+- **Toggle App bar Demo**
 
 ```dart
 ConfiguraTile(
@@ -532,13 +530,11 @@ ConfiguraTile(
         ),
 ```
 
-Insert screenshot of the app bar demo here:
-
 ![Toggle appbar on Demo](assets/images/toggleAppbar0.jpg)
 
 ![Toggle appbar off Demo](assets/images/toggleAppbar1.jpg)
 
-- Toggle leading icon example
+- **Toggle leading icon example**
 
 ```dart
 ConfiguraTile(
@@ -560,11 +556,9 @@ ConfiguraTile(
         ),
 ```
 
-![Appbar leading on Demo](assets/images/toggleLeading0.jpg)
-
 ![Appbar leading off Demo](assets/images/toggleLeading1.jpg)
 
-- Toggle trailing icon example
+- **Toggle trailing icon example**
 
 ```dart
  ConfiguraTile(
@@ -586,13 +580,10 @@ ConfiguraTile(
         ),
 ```
 
-Insert screenshot of the app bar demo here:
-
 ![Appbar trailing on Demo](assets/images/toggleTrailing0.jpg)
-
 ![Appbar trailing off Demo](assets/images/toggleTrailing1.jpg)
 
-- Complete App bar example
+- **Complete App bar example**
 
 ```dart
 import 'package:flutter/material.dart';
@@ -755,15 +746,13 @@ class _AppbarDemoState extends State<AppbarDemo> {
 
 ```
 
-Insert screenshot of the app bar demo here:
-
 ![App Bar Demo](assets/images/appbarDemo.jpg)
 
 ---
 
 ## Floating Action Button Configuration
 
-You can configure a floating action button using the `ConfiguraFab` class. Here's an example:
+**You can configure a floating action button using the `ConfiguraFab` class. Here's an example:**
 
 ```dart
       fabConfig: ConfiguraFab(
@@ -777,15 +766,13 @@ You can configure a floating action button using the `ConfiguraFab` class. Here'
     );
 ```
 
-Insert screenshot of the FAB demo here:
-
 ![FAB Demo](assets/images/main.jpg)
 
 ---
 
 ## Debug Modes
 
-ConfiguraTiles supports different debug modes to help with development. You can set the debug mode using the `debugMode` parameter:
+**ConfiguraTiles supports different debug modes to help with development. You can set the debug mode using the `debugMode` parameter:**
 
 ```dart
 class DebugDemo extends StatelessWidget {
@@ -813,16 +800,19 @@ class DebugDemo extends StatelessWidget {
 
 ### Project Links
 
-- ConfiguraTiles Demo: [GitHub](https://github.com/TheSageAnomaly/configura_tiles_demo)
-- Clone ConfiguraTiles Demo: `git@github.com:TheSageAnomaly/configura_tiles_demo.git`
-- Demo APK: [Download APK](https://github.com/TheSageAnomaly/configura_tiles_demo/blob/main/assets/apk/ConfiguraTiles%20Demo.apk)
+- **ConfiguraTiles Demo:  [GitHub](https://github.com/TheSageAnomaly/configura_tiles_demo)**
 
-- ConfiguraTiles Package: [GitHub](https://github.com/TheSageAnomaly/configura_tiles)
-- Clone ConfiguraTiles Package: `git@github.com:TheSageAnomaly/configura_tiles.git`
+- **Clone ConfiguraTiles Demo: `git@github.com:TheSageAnomaly/configura_tiles_demo.git`**
+
+- **Demo APK: [Download APK](https://github.com/TheSageAnomaly/configura_tiles_demo/blob/main/assets/apk/ConfiguraTiles%20Demo.apk)**
+
+- **ConfiguraTiles Package: [GitHub](https://github.com/TheSageAnomaly/configura_tiles)**
+
+- **Clone ConfiguraTiles Package: `git@github.com:TheSageAnomaly/configura_tiles.git`**
 
 ### Social Media
 
-- GitHub: [TheSageAnomaly](https://github.com/TheSageAnomaly)
-- X (formerly Twitter): [TheSageAnomaly](https://x.com/TheSageAnomaly)
+- **GitHub: [TheSageAnomaly](https://github.com/TheSageAnomaly)**
+- **X (formerly Twitter): [TheSageAnomaly](https://x.com/TheSageAnomaly)**
 
-Feel free to explore and contribute to the project! For any questions or support, reach out to us on our social media platforms.
+**Feel free to explore and contribute to the project! For any questions or support, reach out to us on our social media platforms.**

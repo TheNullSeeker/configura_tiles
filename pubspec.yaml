@@ -1,6 +1,6 @@
 name: configura_tiles
 description: Configura Tiles is a Flutter package designed for creating screens with a list tile setup, such as settings screens.
-version: 0.0.2
+version: 0.0.21
 homepage: https://github.com/TheSageAnomaly/configura_tiles.git
 repository: https://github.com/TheSageAnomaly/configura_tiles.git
 

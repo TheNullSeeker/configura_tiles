@@ -1,5 +1,12 @@
 # configura_tiles
 
+## 0.0.21
+
+### Enhancements
+
+- **Improved user documentation.**
+
+
 ## 0.0.2
 
 ### Enhancements
